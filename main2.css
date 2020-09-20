@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 .brand{
 	font-size: 30px;
 	font-weight: bold;
@@ -39,3 +43,28 @@
   left: 0;
   right: 0;
 }
+.page-head{
+  font-size: 40px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .hr1{
+    width: 300px;
+    }  
+    .mySlides{
+      margin-left: -10px;
+      width: 300px;
+      height: 250px;
+      margin-top: -650px;
+    }
+    .home-page{
+      padding-top: 220px;
+    }
+    .dots{
+      margin-top: -70px;
+      margin-left: 50px;
+    }
+  }
